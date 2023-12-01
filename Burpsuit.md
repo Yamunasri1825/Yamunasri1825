@@ -2,7 +2,7 @@
 Resouces:
 * https://en.wikipedia.org/wiki/Burp_Suite
 * David Bombal(Youtube video)
-* 
+  
 BrupSuit:
 * Burp Suite is a software security application used for penetration testing of web applications.
 * This software is developed by the company PortSwigger
@@ -30,6 +30,18 @@ Installation:
  * After completion of installation
  * ![Screenshot (145)](https://github.com/Yamunasri1825/Yamunasri1825/assets/131263371/8fd10a95-82dd-42f4-9dea-aa47f8b151eb)
  * This may be you will find
+   
+Brupsuit:
+* I notice some http history when we search in web browser
+* And also i notice the actions if we made any request what is the response to my request
+* i take an example web site chodechef (i searched in firefox and obeserve the http history i obeserve the requests and response)
+* ![Screenshot (148)](https://github.com/Yamunasri1825/Yamunasri1825/assets/131263371/f120ca4c-8e56-4aee-8119-7c8e69cf8d6c)
+
+* ![Screenshot (147)](https://github.com/Yamunasri1825/Yamunasri1825/assets/131263371/00bfd142-af73-4a24-9039-c9fe99898eda)
+* i obeserve the source code in response side
+* if i try to login in into the codechef i observe request method is in POST
+* By that i understand we are request our credential to the server(so that the method is post method)
+* After that i started target section in that i observe issue definitions(still reading)
 
 
 
