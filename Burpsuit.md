@@ -42,6 +42,43 @@ Brupsuit:
 * if i try to login in into the codechef i observe request method is in POST
 * By that i understand we are request our credential to the server(so that the method is post method)
 * After that i started target section in that i observe issue definitions(still reading)
+  
+  2-12-2023
+Resources:
+* https://www.cybercrowd.co.uk/news/impact-of-a-sql-injection/
+* Youtube Video(Rana Khalil)
+  
+SQL  injection:
+  Vulnerability that consist of an attacker interfering with sql queries that application makes a database.
 
+IMPACT OF SQL INJECTION:
 
+* Confidentiality: Since SQL databases generally hold sensitive data, loss of confidentiality is a frequent problem with SQL Injection vulnerabilities.
+* Authentication: If poor SQL commands are used to check user names and passwords, it may be possible to connect to a system as another user with no previous knowledge of the password.
+* Authorisation: If authorisation information is held in a SQL database, it may be possible to change this information through the successful exploitation of a SQL Injection vulnerability.
+* Integrity: Just as it may be possible to read sensitive information, it is also possible to make changes or even delete this information with a SQL Injection attack.
+  
+* Remote code execution on the operating system.
 
+TYPES OF SQL INJECTION:
+1.In-Band(Classic)
+   i)error
+   ii)Union
+2.Inferential(Blind)
+ i)Boolean
+ ii)Time
+3.out-of-band
+
+I solved one lab in portswigger
+
+question:
+This lab contains a SQL injection vulnerability in the product category filter. When the user selects a category, the application carries out a SQL query like the following:
+SELECT * FROM products WHERE category = 'Gifts' AND released = 1
+To solve the lab, perform a SQL injection attack that causes the application to display one or more unreleased products.
+
+SOLUTION:
+. SELECT * FROM products WHERE category = 'Pets' AND released = 1
+. SELECT * FROM products WHERE category = ''' AND released = 1
+.SELECT * FROM products WHERE category = ''--' AND released = 1
+.SELECT * FROM products WHERE category = ''
+SELECT * FROM products WHERE category = '' or 1=1 --' AND released = 1
