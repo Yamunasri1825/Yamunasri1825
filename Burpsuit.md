@@ -71,7 +71,7 @@ TYPES OF SQL INJECTION:
 
 I solved one lab in portswigger
 
-question:
+1.question:
 This lab contains a SQL injection vulnerability in the product category filter. When the user selects a category, the application carries out a SQL query like the following:
 SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 To solve the lab, perform a SQL injection attack that causes the application to display one or more unreleased products.
@@ -83,3 +83,13 @@ SOLUTION:
 .SELECT * FROM products WHERE category = ''
 SELECT * FROM products WHERE category = '' or 1=1 --' AND released = 1
 ![Screenshot (149)](https://github.com/Yamunasri1825/Yamunasri1825/assets/131263371/07aeff2d-77c1-4a2f-a51d-c5576b203514)
+2. Question:
+SQL injection vulnerability allowing login bypass
+This lab contains a SQL injection vulnerability in the login function.
+To solve the lab, perform a SQL injection attack that logs in to the application as the administrator user.
+ANALYSIS:
+*first i tried admin as username and password is admin,it shows wrong username and password
+* second time i tried with username as ' and password is admin then it show internal error (then i understand something is happening)
+* third time i tried admin'-- and password is admin then also it shows internal error
+* fourth time i tried administrator'--  as username and password is admin
+![Screenshot (150)](https://github.com/Yamunasri1825/Yamunasri1825/assets/131263371/b1962f1e-213f-4924-bb08-c90ac3ea276a)
