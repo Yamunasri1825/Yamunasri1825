@@ -82,3 +82,4 @@ SOLUTION:
 .SELECT * FROM products WHERE category = ''--' AND released = 1
 .SELECT * FROM products WHERE category = ''
 SELECT * FROM products WHERE category = '' or 1=1 --' AND released = 1
+![Screenshot (149)](https://github.com/Yamunasri1825/Yamunasri1825/assets/131263371/07aeff2d-77c1-4a2f-a51d-c5576b203514)
