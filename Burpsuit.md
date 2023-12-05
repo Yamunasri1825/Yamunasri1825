@@ -27,6 +27,11 @@ Installation:
 * open firefox search for ‘FoxyProxy standard extension'
   ![Screenshot (143)](https://github.com/Yamunasri1825/Yamunasri1825/assets/131263371/b4041cf5-b321-4d8a-bff0-3b8e207d0413)
  * Now, you will see the pop up that says “FoxyProxy is added”. Click okay on that pop-up. You will find the FoxyProxy icon on the right of the browser toolbar. Click on that icon and click options from the dialog box that appears.
+ * Tou have insert certificate after completing this.
+ * dowload certificate and go to browser settings and search certificate
+ * ![Screenshot (151)](https://github.com/Yamunasri1825/Yamunasri1825/assets/131263371/027a63c5-2466-4b35-b626-e718f451eeec)
+* click on import certificate
+* import the certificate where you downloaded
  * After completion of installation
  * ![Screenshot (145)](https://github.com/Yamunasri1825/Yamunasri1825/assets/131263371/8fd10a95-82dd-42f4-9dea-aa47f8b151eb)
  * This may be you will find
